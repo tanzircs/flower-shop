@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    width: auto;
+    height: 850px;
+    /* flex-shrink: 0; */
+    background: rgba(229, 84, 115, 0.10);
+    gap: 97px;
+}
+
+.head {
+    display: flex;
+    padding: 0px 240px;
+    justify-content: space-between;
+}
+
+.head-img {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+    margin-top: 50px;
+    /* display: flex; */
+    /* justify-content: end; */
+}
+
+.head-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+    margin-top: 197px;
+}
+
+.head-des {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    width: 634px;
+    margin: 32px 0px;
+}
+
+.shop-button {
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: none;
+}
+
+/* footer */
+footer {
+    width: auto;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foot-title{
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.foot-des{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+    width: 625px;
+    margin-top: 24px;
+}
+
+.f-shop-text{
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.copy{
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 32px;
+}
