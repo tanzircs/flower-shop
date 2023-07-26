@@ -167,28 +167,29 @@ header {
     margin-bottom: 48px;
 }
 
-.delivery{
+.delivery {
     border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-width: 1440px;
-height: 320px;
-flex-shrink: 0;
-margin: 128px 240px;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-text-align: center;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+    margin: 128px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
-.delivery-des{
+.delivery-des {
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-family: Lato;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 35px; /* 145.833% */
-margin-top: 24px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+    /* 145.833% */
+    margin-top: 24px;
 }
 
 /* hot deal */
